@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgba(231, 230, 230, 0.681);
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.inline {
+  display: inline-block;
+}
+
+img {
+  width: 320px;
+}
+
+.main {
+  width: 580px;
+  margin-left: 170px;
+  margin-top: 170px;
+  position: relative;
+  bottom: 70px;
+}
+
+.para-size {
+  font-size: 30px;
+}
+
+.form {
+  background-color: white;
+  text-align: center;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  margin-top: 170px;
+  box-shadow: 0 2px 4px #0000001a, 0 8px 16px #0000001a;
+}
+
+input,
+button {
+  width: 350px;
+  height: 45px;
+  display: block;
+  margin: 20px;
+  border-radius: 5px;
+  border: 1px solid grey;
+}
+
+button {
+  background-color: rgb(44, 90, 255);
+  color: white;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+input{
+    padding: 3px 20px;
+    font-size: large;
+    width: 310px;
+}
+input:hover {
+  border: 1px solid blue;
+}
+
+.color {
+  color: rgb(68, 68, 242);
+}
+
+.line {
+  width: 340px;
+  height: 1px;
+  background-color: rgba(163, 161, 161, 0.818);
+  margin: 15px auto;
+}
+
+.create-new-account {
+  width: 200px;
+  background-color: rgb(56, 190, 2);
+  color: white;
+  border-radius: 5px;
+  height: 45px;
+  text-align: center;
+  font-weight: 900;
+  margin: 10px auto;
+}
+footer{
+  height: 130px;
+  background-color: white;
+  padding: 20px 200px;
+  margin-top: 200px;
+}
+.margin-left{
+  margin-left: 780px;
+  margin-top: 20px;
+  margin-bottom: 17 0px;
+}
+.color-2{
+  color: grey;
+  font-size: 13px;
+}
+.word-spacing{
+  word-spacing: 12px;
+  border-top: 1px solid rgba(128, 128, 128, 0.5);
+  margin-top: 10px;
+  padding-top: 10px;
+  margin-bottom: 30px;
+}
